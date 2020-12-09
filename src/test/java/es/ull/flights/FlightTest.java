@@ -45,7 +45,7 @@ public class FlightTest {
 			@Test
 			@DisplayName("Testing errors of the flight")
 			public void testFlightErrors() {
-				assertAll("ETZEKIÑAT TXO",
+				assertAll("Assertion to test errors",
 						() -> assertThrows(RuntimeException.class, () -> {
 							f2 = new Flight("AAA", 1);
 						  }),
