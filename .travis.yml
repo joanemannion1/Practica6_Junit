@@ -1,2 +1,8 @@
+# Project JDK
 language: java
-script: mvn clean verify
+jdk:
+  - openjdk11
+
+script:
+  
+  - mvn clean install verify
