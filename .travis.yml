@@ -5,4 +5,4 @@ jdk:
 
 script:
   
-  - doxygen Doxyfile
+  - mvn clean install verify
