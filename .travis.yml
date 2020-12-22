@@ -8,7 +8,23 @@ addons:
     packages:
       - doxygen
 
+
+before_install:
+      - sudo apt-get update
+      - sudo apt-get install -y doxygen
+
 script:
   
   - mvn clean install verify
   - doxygen Doxyfile
+  
+  deploy:
+    provider: pages
+    skip-cleanup: true
+    github_token: $GH_REPO_TOKEN
+    on:
+    branch: master
+    keep-history: true
+    local-dir: documentation
+    repo: <github-username>/<documentation-repository>
+    target-branch: master
