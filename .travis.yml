@@ -18,13 +18,10 @@ script:
   - mvn clean install verify
   - doxygen Doxyfile
   
-  deploy:
-    provider: pages
-    skip-cleanup: true
-    github_token: $GH_REPO_TOKEN
-    on:
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: target
+  github_token: $GH_REPO_TOKEN
+  on:
     branch: master
-    keep-history: true
-    local-dir: documentation
-    repo: <github-username>/<documentation-repository>
-    target-branch: master
