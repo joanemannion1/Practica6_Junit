@@ -8,7 +8,7 @@ PROJECT_NAME           = "My Project"
 PROJECT_NUMBER         =
 PROJECT_BRIEF          =
 PROJECT_LOGO           =
-OUTPUT_DIRECTORY       = "https://github.com/joanemannion1/Practica6_Junit/"
+OUTPUT_DIRECTORY       = "C:\Users\joane\OneDrive\Escritorio\AZKENAAAAAA OLEOLE\Laboratorio de Desarrollo y Herramientas\Practica6_JUnit\Docs"
 CREATE_SUBDIRS         = NO
 ALLOW_UNICODE_NAMES    = NO
 OUTPUT_LANGUAGE        = English
@@ -65,7 +65,7 @@ NUM_PROC_THREADS       = 1
 #---------------------------------------------------------------------------
 # Build related configuration options
 #---------------------------------------------------------------------------
-EXTRACT_ALL            = NO
+EXTRACT_ALL            = YES
 EXTRACT_PRIVATE        = NO
 EXTRACT_PRIV_VIRTUAL   = NO
 EXTRACT_PACKAGE        = NO
@@ -117,7 +117,7 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = "https://github.com/joanemannion1/Practica6_Junit/src"
+INPUT                  = "C:\Users\joane\OneDrive\Escritorio\AZKENAAAAAA OLEOLE\Laboratorio de Desarrollo y Herramientas\Practica6_JUnit\Practica6_Junit\src"
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          = *.c \
                          *.cc \
@@ -242,7 +242,7 @@ QHG_LOCATION           =
 GENERATE_ECLIPSEHELP   = NO
 ECLIPSE_DOC_ID         = org.doxygen.Project
 DISABLE_INDEX          = NO
-GENERATE_TREEVIEW      = NO
+GENERATE_TREEVIEW      = YES
 ENUM_VALUES_PER_LINE   = 4
 TREEVIEW_WIDTH         = 250
 EXT_LINKS_IN_WINDOW    = NO
