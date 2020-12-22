@@ -23,7 +23,7 @@ deploy:
     github-token: $GH_REPO_TOKEN
     keep-history: true
     on:
-        branch: master
+        branch: main
     local-dir: documentation
     repo: joanemannion1/Practica6_Junit/docs
     target-branch: master
