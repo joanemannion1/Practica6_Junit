@@ -15,7 +15,7 @@ before_install:
       - sudo apt-get install -y doxygen
       
 script:
-    - make docs
+    - doxygen Doxyfile
 
 deploy:
     provider: pages
