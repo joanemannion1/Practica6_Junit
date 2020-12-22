@@ -8,20 +8,22 @@ addons:
     packages:
       - doxygen
 
+sudo: enabled
 
 before_install:
       - sudo apt-get update
       - sudo apt-get install -y doxygen
-
+      
 script:
-  
-  - mvn clean install verify
-  - doxygen Doxyfile
-  
+    - make docs
+
 deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: target
-  github_token: $GH_REPO_TOKEN
-  on:
-    branch: master
+    provider: pages
+    skip-cleanup: true
+    github-token: $GH_REPO_TOKEN
+    keep-history: true
+    on:
+        branch: master
+    local-dir: documentation
+    repo: joanemannion1/Practica6_Junit/docs
+    target-branch: master
