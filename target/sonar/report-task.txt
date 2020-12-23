@@ -1,0 +1,6 @@
+projectKey=joanemannion1_Practica6_Junit
+serverUrl=http://localhost:9000
+serverVersion=8.5.1.38104
+dashboardUrl=http://localhost:9000/dashboard?id=joanemannion1_Practica6_Junit
+ceTaskId=AXaPAA1y8YMRaa1xh7Oj
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXaPAA1y8YMRaa1xh7Oj

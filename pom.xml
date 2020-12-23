@@ -11,11 +11,12 @@
 
      <properties>
         <sonar.projectKey>joanemannion1_Practica6_Junit</sonar.projectKey>
-        <sonar.organization>joanemannion1</sonar.organization>
+        <!--sonar.organization>joanemannion1</sonar.organization-->
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <sonar.login>9bc21acbdb8168135a8f6e9f20b4340ce3511480</sonar.login>
     </properties>
 
     <build>
