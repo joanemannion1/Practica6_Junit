@@ -9,7 +9,10 @@
 
     <name>ch13-continuous</name>
 
-    <properties>
+     <properties>
+        <sonar.projectKey>joanemannion1_Practica6_Junit</sonar.projectKey>
+        <sonar.organization>joanemannion1</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
