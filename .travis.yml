@@ -15,6 +15,7 @@ before_install:
       - sudo apt-get install -y doxygen
       
 script:
+    - mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
     - doxygen Doxyfile
 
 deploy:
